@@ -1,0 +1,34 @@
+.emailList{
+    flex: 1;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.emailList{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.emailList_settings{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--main-a-color);
+    background-color: var(--main-g-color);
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.emailList_sections{
+    position: sticky;
+    top: 0;
+    display: flex;
+    border-bottom: 1px solid var(--main-a-color);
+    background-color: var(--main-g-color);
+    z-index: 999;
+}
+
+.emailList_list{
+    padding-bottom: 20%;
+}
